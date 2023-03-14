@@ -1,0 +1,26 @@
+# > Paramount+
+// US UA
+USER-AGENT,PPlus*, 🇺🇸 US
+// Intl. UA
+USER-AGENT,ParamountPlus*, 🇺🇸 US
+DOMAIN-SUFFIX,cbsi.com
+DOMAIN-SUFFIX,cbsaavideo.com, 🇺🇸 US
+DOMAIN-SUFFIX,cbsivideo.com, 🇺🇸 US
+DOMAIN-SUFFIX,paramountplus.com, 🇺🇸 US
+DOMAIN-SUFFIX,pplusstatic.com, 🇺🇸 US
+DOMAIN-SUFFIX,mtvnservices.com, 🇺🇸 US
+DOMAIN-SUFFIX,cws.conviva.com, 🇺🇸 US
+DOMAIN,link.theplatform.com, 🇺🇸 US
+// US
+AND,((DOMAIN,cbsi.live.ott.irdeto.com), (USER-AGENT,PPlus*))
+// Intl.
+AND,((DOMAIN,cbsi.live.ott.irdeto.com), (USER-AGENT,Paramountlus*))
+DOMAIN,cbsi.live.ott.irdeto.com, 🇺🇸 US
+DOMAIN,thumbnails.cbsig.net, 🇺🇸 US
+DOMAIN,cbsinteractive.hb.omtrdc.net, 🇺🇸 US
+DOMAIN,ads.play.cbsi.video, Reject, 🇺🇸 US
+DOMAIN,pubads.g.doubleclick.net, 🇺🇸 US
+// DOMAIN,cbsnews.akamaized.net, 🇺🇸 US
+// CBS live丨US
+DOMAIN,cbsservice.aws.syncbak.com, 🇺🇸 US
+DOMAIN,cbsplaylistserver.aws.syncbak.com, 🇺🇸 US
